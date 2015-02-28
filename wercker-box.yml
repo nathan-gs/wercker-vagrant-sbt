@@ -23,7 +23,8 @@ script: |
   sudo apt-get update
   sudo apt-get install -y dkms virtualbox-4.3
   sudo apt-get install -y build-essential autoconf
-  sudo apt-get install openjdk-8-jdk
+  sudo apt-get install -y openjdk-8-jdk
+  sudo apt-get install -y git-core
   sudo gem install dep-selector-libgecode
   sudo gem install berkshelf
   wget https://dl.bintray.com/mitchellh/vagrant/vagrant_1.6.3_x86_64.deb
